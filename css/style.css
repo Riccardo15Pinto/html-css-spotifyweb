@@ -70,7 +70,16 @@ img{
 }
 
 h2{
-    margin: 40px 0;
+    margin-top: 40px;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+h5{
+    margin-top: 15px;
+    color: #77797E;
 }
 
 /* header */
@@ -126,16 +135,14 @@ h2{
 }
 
 .row{
-    margin: 0 -10px;
+    margin: 25px -10px;
 }
 
 .card-info{
     text-align: center;
 }
 
-.card-info > *{
-    padding-top: 15px;
-}
+
 
 
 
