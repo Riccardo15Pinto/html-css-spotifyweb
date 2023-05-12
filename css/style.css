@@ -142,13 +142,14 @@ h5{
 .sidebar{
     background-color: black;
     flex-basis: 50px;
-    overflow: hidden;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo-sidebar{
     width: 30px;
+    margin: 20px;
 }
 
 .d-none{
@@ -159,6 +160,7 @@ h5{
 /* responsive */
 
 @media screen and (min-width: 639px){
+    
     .sidebar{
         flex-basis: 250px;
     }
@@ -175,11 +177,23 @@ h5{
         flex-basis: calc(100% / 3);
         font-size: 15px;
     }
+
+    .in{
+        display: block;
+        width: 130px;
+    }
+
+    .out{
+        display: none;
+    }
+
+    .sidebar{
+        align-items: flex-start;
+    }
 }
 
 @media screen and (min-width: 878px){
     
-
     .container{
         max-width: 850px;
     }
@@ -192,6 +206,7 @@ h5{
     .card{
         flex-basis: calc(100% / 4);
     }
+
 }
 
 @media screen and (min-width: 1440px){
