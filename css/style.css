@@ -6,14 +6,58 @@
     box-sizing: border-box;
 }
 
+/* utility */
+
+.d-flex{
+    display: flex;
+}
+
 /* generics */
 
-main{
-    background-color: #141922;
-    height: calc( 100vh - 50px);
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+section{
+    height: calc( 100vh - 150px);
+    overflow-y: auto;
+    color: white;
+    padding: 20px;
 }
 
 footer{
     background-color: #282828;
     height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* main */
+
+.main-content{
+    flex-basis: calc(100% - 100px);
+    background-color: #141922;
+}
+
+.sidebar{
+    background-color: black;
+    flex-basis: 100px;
+}
+
+/* responsive */
+
+@media screen and (min-width: 639px){
+    .sidebar{
+        flex-basis: 250px;
+    }
+
+    .main-content{
+        flex-basis: calc(100% - 250px);
+    }
+
 }
