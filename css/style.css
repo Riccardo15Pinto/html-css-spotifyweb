@@ -25,6 +25,14 @@
     border-radius: 50%;
 }
 
+.w-130{
+    width: 130px;
+}
+
+.a-items{
+    align-items: center;
+}
+
 /* generics */
 
 body{
@@ -147,6 +155,14 @@ h5{
     align-items: center;
 }
 
+.sidebar-content > *{
+    color: #77797E;
+}
+
+.logo-sidebar a img{
+    filter: invert(56%) sepia(7%) saturate(233%) hue-rotate(185deg) brightness(83%) contrast(96%);;
+}
+
 .logo-sidebar{
     width: 30px;
     margin: 20px;
@@ -180,7 +196,6 @@ h5{
 
     .in{
         display: block;
-        width: 130px;
     }
 
     .out{
