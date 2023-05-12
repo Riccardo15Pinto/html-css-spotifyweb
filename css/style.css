@@ -5,3 +5,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* generics */
+
+main{
+    background-color: #141922;
+    height: calc( 100vh - 50px);
+}
+
+footer{
+    background-color: #282828;
+    height: 50px;
+}
