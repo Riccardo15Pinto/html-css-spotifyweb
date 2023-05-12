@@ -33,6 +33,17 @@
     align-items: center;
 }
 
+.line{
+    border: 1px solid white;
+    width: 200px;
+    margin: 0 25px;
+}
+
+.b-c-w{
+    background-color: lightgrey;
+    mix-blend-mode: hard-light;
+}
+
 /* generics */
 
 body{
@@ -165,7 +176,7 @@ h5{
 
 .logo-sidebar{
     width: 30px;
-    margin: 20px;
+    margin: 15px;
 }
 
 .d-none{
