@@ -97,13 +97,8 @@ h5{
 /* main-nav*/
 
 .main-content{
-    flex-basis: calc(100% - 100px);
+    flex-basis: calc(100% - 50px);
     background-color: #141922;
-}
-
-.sidebar{
-    background-color: black;
-    flex-basis: 100px;
 }
 
 .main-nav ul{
@@ -142,8 +137,23 @@ h5{
     text-align: center;
 }
 
+/* sidebar */
 
+.sidebar{
+    background-color: black;
+    flex-basis: 50px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.logo-sidebar{
+    width: 30px;
+}
+
+.d-none{
+    display: none;
+}
 
 
 /* responsive */
@@ -152,7 +162,7 @@ h5{
     .sidebar{
         flex-basis: 250px;
     }
-
+    
     .main-content{
         flex-basis: calc(100% - 250px);
     }
