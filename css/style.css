@@ -264,21 +264,21 @@ h5{
 
 .progress-bar-box > div {
     width: 85%;
-    margin: 6px;
+    margin: 9px;
 }
 
 .progress-bar{
     width: 100%;
-    border: 4px solid #77797E;
+    border: 2px solid #77797E;
     border-radius: 10px;
 }
 
 .progress-line{
     width: 40%;
-    border: 4px solid #C1C1C1;
+    border: 2px solid #C1C1C1;
     border-radius: 10px;
     position: relative;
-    top: -8px;
+    top: -4px;
 }
 
 .progress-circle{
@@ -286,7 +286,7 @@ h5{
     height: 15px;
     background-color: white;
     position: relative;
-    top: -19px;
+    top: -14px;
     left: 37%;
     border-radius: 50%;
 }
@@ -305,7 +305,7 @@ h5{
 }
 
 .sound-box{
-    width: 50px;
+    width: 70px;
     position: relative;
     top: 4px;
     cursor: pointer;
@@ -313,21 +313,22 @@ h5{
 
 .sound-bar{
     width: 100%;
-    border: 4px solid #77797E;
+    border: 2px solid #77797E;
     border-radius: 10px;
 }
 
 .sound-line{
     width: 40%;
-    border: 4px solid #C1C1C1;
+    border: 2px solid #C1C1C1;
     border-radius: 10px;
     position: relative;
-    top: -8px; 
+    top: -4px; 
 }
 
 .footer-container .footer-box-content .c-grey{
     color: #858585;
 }
+
 /* responsive */
 
 @media screen and (min-width: 639px){
@@ -360,7 +361,30 @@ h5{
     .sidebar{
         align-items: flex-start;
     }
+
+    .footer-container{
+        max-width: 639px;
+    }
+
+    .footer-content-icon-sx{
+        margin-left: 20px;
+    }
+
+    .progress-bar-box,
+    .progress-bar-box-icon{
+        width:250px;
+    }
+
+    .m-l5{
+        margin-left: 10px;
+    }
+
+    .container-image-footer{
+        width: 40px;
+    }
 }
+        
+
 
 @media screen and (min-width: 878px){
     
@@ -377,7 +401,38 @@ h5{
         flex-basis: calc(100% / 4);
     }
 
+    .footer-container{
+        max-width: 878px;
+    }
+
+    .footer-content-icon-sx{
+        flex-direction: row;
+    }
+
+    .footer-content-icon-sx > *{
+        margin-right: 10px;
+    }
+
+    .progress-bar-box{
+        width:450px;
+    }
+
+    .progress-bar-box-icon{
+        width: 350px;
+    }
+     
+    .progress-bar-box-icon-position{
+        display: flex;
+        justify-content: center;
+    }
+
+    .progress-circle{
+        left: 38%;
+    }
+
 }
+
+
 
 @media screen and (min-width: 1440px){
     
@@ -397,5 +452,19 @@ h5{
     .card{
         flex-basis: calc(100% / 6);
     }
+
+    .footer-container{
+        max-width: 1440px;
+    }
+
+    .progress-bar-box{
+        width:850px;
+    }
     
+}
+
+@media screen and (min-width: 1629px){
+    .footer-container{
+        max-width: 1629px;
+    }
 }
