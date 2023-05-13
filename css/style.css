@@ -44,6 +44,10 @@
     mix-blend-mode: hard-light;
 }
 
+.d-none{
+    display: none;
+}
+
 /* generics */
 
 body{
@@ -176,11 +180,30 @@ h5{
 
 .logo-sidebar{
     width: 30px;
-    margin: 15px;
+    margin: 10px;
 }
 
-.d-none{
-    display: none;
+.add-playlist div{
+    background-color: #77797E;
+    color: black;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    padding-bottom: 38px;
+    padding-left: 7px;
+    margin-right: 10px;
+}
+
+.add-playlist > *{
+    margin: 10px;
+}
+
+.add-playlist a {
+    color: #77797E;
+}
+
+.add-playlist li{
+    margin-top: 10px;
 }
 
 
