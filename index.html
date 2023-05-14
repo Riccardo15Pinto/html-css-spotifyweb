@@ -29,76 +29,88 @@
                     </a>
                 </div>
 
-                <div class="sidebar-content d-flex a-items">
+                <div class="sidebar-content">
 
-                    <div class="logo-sidebar">
+                    <div class="logo-sidebar d-flex a-items">
                         <a href="#">
                             <img src="img/home.svg" alt="">
                         </a>
-                    </div>
-                    <a href="#" class="d-none in">Home</a>
-                </div>
-
-                <div class="sidebar-content d-flex a-items">
-
-                    <div class="logo-sidebar">
-                        <a href="#">
-                            <img src="img/search.svg" alt="">
+                        <a href="#" class="d-none in line-box">
+                            Home
+                            <div class="line d-none"></div>
                         </a>
                     </div>
-                    <a href="#" class="d-none in">Cerca</a>
                 </div>
-                <div class="sidebar-content d-flex a-items">
-                    <div class="logo-sidebar">
+
+                <div class="sidebar-content">
+
+                    <div class="logo-sidebar d-flex a-items">
+                        <a href="#" class="lef-line">
+                            <img src="img/search.svg" alt="">
+                        </a>
+                        <a href="#" class="d-none in line-box">
+                            Cerca
+                            <div class="line d-none"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="sidebar-content">
+                    <div class="logo-sidebar d-flex a-items">
                         <a href="#">
                             <img src="img/libreria.svg" alt="">
                         </a>
+                        <a href="#" class="d-none in line-box">
+                            La tua Libreria
+                            <div class="line d-none"></div>
+                        </a>
                     </div>
-                    <a href="#" class="d-none in">La tua Libreria</a>
                 </div>
 
                 <div class="add-playlist d-none in">
 
-                    <h5>PLAYLIST</h5>
+                    <h5 class="c-white">PLAYLIST</h5>
 
                     <ul>
-                        <li><a href="#" class="d-flex a-items"><div>+</div>Crea Playlist</a></li>
+                        <li><a href="#" class="d-flex a-items"><div class="plus">+</div>Crea Playlist</a></li>
                         <li><a href="#">Crea Playlist</a></li>
                         <li><a href="#">Crea Playlist</a></li>
                         <li><a href="#">Crea Playlist</a></li>
                         <li><a href="#">Crea Playlist</a></li>
                         <li><a href="#">Crea Playlist</a></li>
                         <li><a href="#">Crea Playlist</a></li>
-
                     </ul>
-
                 </div>
-                
             </div>
-            
+
             <div class="sidebar-bottom-logo">
 
-                <div class="sidebar-content d-flex a-items">
-                    <div class="logo-sidebar">
+                <div class="sidebar-content">
+                    <div class="logo-sidebar d-flex a-items">
                         <a href="#">
                             <img src="img/download.svg" alt="">
                         </a>
+                        
+                        <a href="#" class="d-none in line-box">
+                            Installa App
+                            <div class="line d-none"></div>
+                        </a>
                     </div>
-                    <a href="#" class="d-none in">Installa App</a>
                 </div>
+                        
+
                 <div class="line d-none in"></div>
                 <div class="sidebar-content d-flex a-items">
                     <div class="logo-sidebar ">
                         
                         <a href="#">
-                            <div class="b-c-w b-r50">
+                            <div class="profile b-r50">
 
                                 <img src="img/profile.svg" alt="">
                             </div>
                         </a>
                     </div>
                     
-                    <a href="#" class="d-none in">Jhon Doe</a>
+                    <a href="#" class="d-none in c-white">Jhon Doe</a>
                 </div>
 
             </div>
@@ -115,32 +127,32 @@
                         <ul class="d-flex wrap">
                             <li>
                                 <a href="#">IN EVIDENZA
-                                    <div class="line d-none"></div>
+                                    <div class="line"></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">PODCAST
-                                    <div class="line d-none"></div>
+                                    <div class="line"></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">CLASSIFICHE
-                                    <div class="line d-none"></div>
+                                    <div class="line"></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">GENERI E MOOD
-                                    <div class="line d-none"></div>
+                                    <div class="line"></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">NUOVE USCITE
-                                    <div class="line d-none"></div>
+                                    <div class="line"></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">SCOPRI
-                                    <div class="line d-none"></div>
+                                    <div class="line"></div>
                                 </a>
                             </li>
                         </ul>
@@ -316,7 +328,7 @@
     <footer>
         <div class="footer-container">
 
-            <div class="footer-box-content d-flex">
+            <div class="footer-box-content d-flex a-items">
                 <div class="footer-content d-flex a-items">
                     <div class="container-image-footer m-r5">
                         <img src="img/sinister.jpeg" alt="img-footer">
@@ -326,7 +338,7 @@
                             <a href="#">Sinister</a>
                         </li>
                         <li>
-                            <div class="d-flex">
+                            <div class="d-flex t-dec">
                                 <a href="#" class="c-grey m-r5">Brano</a>
                                 <a href="#" class="c-grey d-none in">Nome</a>
                             </div>
@@ -348,15 +360,20 @@
                         <div class="progress-bar-box-icon">
                             <a href="#"><i class="fa-solid fa-shuffle"></i></a>
                             <a href="#"><i class="fa-solid fa-backward-fast"></i></a>
-                            <a href="#"class="play-botton"><i class="fa-solid fa-play"></i></a>
+                            <div class="play-botton">
+                                <a href="#">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
                             <a href="#"><i class="fa-solid fa-forward-fast"></i></a>
                             <a href="#"><i class="fa-solid fa-arrow-rotate-right"></i></a>
                         </div>
                     </div>
+
                         
                     <div class="progress-bar-box d-flex">
                         <span>0:25</span>
-                        <div>
+                        <div class="progress-bar-content">
                             <div class="progress-bar"></div>
                             <div class="progress-line"></div>
                             <div class="progress-circle"></div>
@@ -382,6 +399,7 @@
                     <div class="sound-box m-l5">
                         <div class="sound-bar"></div>
                         <div class="sound-line"></div>
+                        <div class="progress-circle"></div>
                     </div>
                 </div>
 
@@ -392,6 +410,9 @@
     
 </body>
 </html>
+
+                
+            
 
 
 
