@@ -156,7 +156,7 @@ h5{
     position: relative;
 }
 
-.press-play-box{
+.card .card-image .press-play-box{
     position: absolute;
     top: 0%;
     left: 0%;
@@ -165,14 +165,13 @@ h5{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.press-play{
+.card .card-image .press-play{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 36%;
+    left: 36%;
 }
 
-.press-play .play-botton{
+.card .card-image .press-play .play-botton{
     color: white;
     height: 54px;
     width: 54px;
@@ -604,11 +603,11 @@ header .button:hover{
     color: white;
 }
 
-.play-botton:hover .fa-play{
+.progress-bar-box-icon-position .play-botton:hover .fa-play{
     font-size: 22px;
 }
 
-.play-botton:hover{
+.progress-bar-box-icon-position .play-botton:hover{
     width: 30px;
     height: 30px;
     padding-top: 2px;
