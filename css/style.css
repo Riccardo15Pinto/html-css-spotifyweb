@@ -150,6 +150,14 @@ h5{
     color: #77797E;
 }
 
+.main-nav .line{
+    width: 20%;
+    border: 1px solid green;
+    position: relative;
+    left: 27%;
+    margin-top: 5px;
+}
+
 /* recently played */
 
 .card-image{
@@ -196,10 +204,6 @@ h5{
 
 .card-info{
     text-align: center;
-}
-
-.card-image:hover .press-play-box{
-    display: inline-block;
 }
 
 /* sidebar */
@@ -414,8 +418,6 @@ h5{
     }
 }
         
-
-
 @media screen and (min-width: 878px){
     
     .container{
@@ -461,8 +463,6 @@ h5{
     }
 
 }
-
-
 
 @media screen and (min-width: 1440px){
     
@@ -510,3 +510,27 @@ h5{
         max-width: 1903px;
     }
 }
+
+/* hover element */
+
+.card-image:hover .press-play-box{
+    display: inline-block;
+}
+
+header .button:hover{
+    font-size: 15px;
+}
+
+.main-nav a:hover{
+    color: white;
+}
+
+.main-nav a:focus .line{
+    display: block;
+}
+
+.main-nav a:focus{
+    color: white;
+}
+
+
