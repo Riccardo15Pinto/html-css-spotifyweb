@@ -64,9 +64,8 @@ header{
     height: 100px;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: right;
-    
 }
-
+    
 section{
     height: calc( 100vh - 180px);
     overflow-y: auto;
@@ -180,6 +179,10 @@ h5{
     border: 4px solid;
 }
 
+.card-image .press-play .play-botton .fa-play{
+    margin-top: 3px;
+}
+
 .card-content{
     padding: 10px;
     cursor: pointer;
@@ -205,6 +208,7 @@ h5{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: calc(100vh - 80px);
 }
 
 .sidebar-content > *,
@@ -225,7 +229,7 @@ h5{
     width: 130px;
 }
 
-.add-playlist .plus{
+.plus{
     background-color: #77797E;
     color: black;
     width: 30px;
@@ -276,6 +280,33 @@ h5{
     left: -74px;
     height: 30px;
 }
+
+.sidebar-top{
+    height: 280px;
+}
+
+.add-playlist{
+    height: calc(100vh - 390px);
+    overflow: auto;
+    padding-right: 30px;
+}
+
+.sidebar-bottom-logo{
+    height: 110px;
+}
+
+.add-playlist-top{
+    margin: 0 10px;
+}
+
+.add-playlist-top h5{
+    padding-bottom: 5px;
+}
+
+.add-playlist-top a{
+    color: #77797E;
+}
+
 
 /* footer */
 
@@ -363,6 +394,10 @@ h5{
     padding-left: 6px;
     position: absolute;
     top: -1px;
+}
+
+.progress-bar-box-icon-position .progress-bar-box-icon .play-botton .fa-play{
+    margin-top: 2px;
 }
 
 .sound-box{
@@ -488,7 +523,7 @@ h5{
         justify-content: center;
     }
 
-    .progress-circle{
+    .progress-bar-box .progress-circle{
         left: 38%;
     }
 
@@ -576,7 +611,7 @@ header .button:hover{
     color: white;
 }
 
-.add-playlist a:hover .plus{
+.add-playlist-top a:hover .plus{
     background-color: white;
 }
 
@@ -610,5 +645,8 @@ header .button:hover{
 .progress-bar-box-icon-position .play-botton:hover{
     width: 30px;
     height: 30px;
-    padding-top: 2px;
+}
+
+.add-playlist-top a:hover{
+    color: white;
 }
